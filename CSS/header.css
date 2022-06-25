@@ -1,0 +1,106 @@
+.header {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+
+.header::before {
+    position: absolute;
+    content: '';
+    background-image: url(/Portfólio/Images/BG.png);
+    background-size: 100vw 200vh;
+    height: 100vh;
+    width: 100vw;
+    opacity: .5;
+}
+
+.name {
+    color: gray;
+    text-align: left;
+    position: relative;
+    font-weight: 900;
+    letter-spacing: 7px;
+    max-width: max-content;
+    text-align: center;
+    padding-left: 5px;
+}
+
+.title {
+    text-align: left;
+    color: black;
+    position: relative;
+    max-width: max-content;
+}
+
+.subtitle {
+    color: gray;
+    position: relative;
+    max-width: max-content;
+}
+
+.link_projects {
+    color: black;
+    text-align: left;
+    font-size: var(--font-low);
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    padding: 15px 0 0 0;
+    transition: margin-left 300ms;
+}
+
+.link_projects:hover {
+    margin-left: 17%;
+    font-style: italic;
+}
+
+.p_contact{
+    color: gray;
+}
+
+@media (min-width: 1200px) {
+
+    .title,
+    .subtitle {
+        padding-bottom: 1vh;
+    }
+
+    .name,
+    .title,
+    .subtitle,
+    .link_projects {
+        top: 55vh;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .title,
+    .subtitle {
+        padding-bottom: 1vh;
+    }
+
+    .name,
+    .title,
+    .subtitle,
+    .link_projects {
+        top: 70vh;
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 500px) {
+    .name {
+        padding-left: 1px;
+    }
+
+    .name,
+    .title,
+    .subtitle,
+    .link_projects {
+        top: 70vh;
+        margin-left: 10%;
+    }
+}
