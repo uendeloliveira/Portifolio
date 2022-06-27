@@ -9,7 +9,7 @@
 .header::before {
     position: absolute;
     content: '';
-    background-image: url(./CSS/Images/BG.png);
+    background-image: url(../Images/BG.png);
     background-size: 100vw 200vh;
     height: 100vh;
     width: 100vw;
