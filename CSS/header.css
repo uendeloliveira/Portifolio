@@ -38,6 +38,7 @@
     color: gray;
     position: relative;
     max-width: max-content;
+    overflow-x: auto;
 }
 
 .link_projects {
