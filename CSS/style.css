@@ -99,6 +99,9 @@ ul {
 }
 
 @media (max-width: 500px){
+    .contact{
+        top:3%;
+    }
     .contact:hover{
         width: 20%;
     }
