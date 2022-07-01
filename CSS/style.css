@@ -8,15 +8,11 @@
 
 html,
 body {
-    max-width: 100%;
+    /* max-width: 100%; */
     overflow-x: hidden;
 }
 
-body,
-p,
-h1,
-h2,
-a {
+*{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
@@ -25,11 +21,6 @@ a {
 a {
     text-decoration: none;
     color: black;
-}
-
-p {
-    font-size: var(--font-low);
-    font-family: 'Raleway';
 }
 
 h1 {
@@ -43,9 +34,7 @@ h2 {
 ul {
     margin: 0;
     padding: 0;
-    font-size: var(--font-low);
 }
-
 .contact{
     position: fixed;
     display: inline-block;

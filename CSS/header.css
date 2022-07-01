@@ -7,8 +7,8 @@
 }
 
 .header::before {
-    position: absolute;
     content: '';
+    position: absolute;
     background-image: url(../Images/BG.png);
     background-size: 100vw 200vh;
     height: 100vh;
@@ -25,6 +25,8 @@
     max-width: max-content;
     text-align: center;
     padding-left: 5px;
+    font-family: 'Raleway';
+    font-size: var(--font-low);
 }
 
 .title {
@@ -49,7 +51,7 @@
     font-weight: bold;
     position: relative;
     padding: 15px 0 0 0;
-    transition: margin-left 300ms;
+    transition: 300ms;
 }
 
 .link_projects:hover {
@@ -60,14 +62,7 @@
 .p_contact{
     color: gray;
 }
-
 @media (min-width: 1200px) {
-
-    .title,
-    .subtitle {
-        padding-bottom: 1vh;
-    }
-
     .name,
     .title,
     .subtitle,
@@ -78,11 +73,6 @@
 }
 
 @media (max-width: 1200px) {
-    .title,
-    .subtitle {
-        padding-bottom: 1vh;
-    }
-
     .name,
     .title,
     .subtitle,
@@ -101,7 +91,19 @@
     .title,
     .subtitle,
     .link_projects {
-        top: 60vh;
+        top: 70vh;
         margin-left: 10%;
+    }
+}
+@media (max-height: 950px){
+    .header{
+        height: 950px;
+    }
+    .name,
+    .title,
+    .subtitle,
+    .link_projects {
+        top: 500px;
+        margin-left: 15%;
     }
 }

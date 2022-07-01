@@ -17,9 +17,6 @@
     width: 25%;
     padding: 0 50px 20px 0;
 }
-.footer_item a{
-    font-family: 'Raleway';
-}
 .footer_item h2{
     color: white;
     position: relative;
@@ -62,7 +59,9 @@
     color:#24262b;
     background-color: #ffffff;
 }
-
+.contact_item i{
+    margin-right: 15px;
+}
 @media (max-width: 1000px){
     .footer_item {
         width: 50%;
