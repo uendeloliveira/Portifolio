@@ -42,6 +42,11 @@ ul {
     background-color: rgb(168, 168, 168);
     border-radius: 50px;
 }
+.imgsrc{
+    opacity: 0;
+    position: absolute;
+    z-index: -1000;
+}
 .contact{
     position: fixed;
     display: inline-block;
