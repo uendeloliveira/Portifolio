@@ -57,3 +57,28 @@ function smoothScrollTo(endX, endY, duration) {
       window.scroll(newX, newY);
     }, 1000 / 60); // 60 fps
   };
+
+  // TRANSIÇÃO DE IMAGEM
+
+let time = 3500,
+    currentImageIndex = 0,
+    images1 = document.querySelectorAll(".project1 img")
+    images2 = document.querySelectorAll(".project2 img")
+    max = images1.length
+
+function nextImage(){
+  images1[currentImageIndex].classList.remove('selected')
+  images2[currentImageIndex].classList.remove('selected')
+  currentImageIndex++
+  if(currentImageIndex >= max)
+    currentImageIndex = 0
+  images1[currentImageIndex].classList.add('selected')
+  images2[currentImageIndex].classList.add('selected')
+}
+   
+function start(){
+  setInterval(()=>{
+    nextImage()
+  }, time)
+}
+window.addEventListener('load', start)
