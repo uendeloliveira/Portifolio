@@ -33,7 +33,7 @@
     object-fit: cover;
     display: block;
     opacity: 0;
-    transition: opacity 1000ms;
+    transition: opacity 1500ms;
 }
 .item img.selected{
     opacity: 1;

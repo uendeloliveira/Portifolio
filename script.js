@@ -60,7 +60,7 @@ function smoothScrollTo(endX, endY, duration) {
 
   // TRANSIÇÃO DE IMAGEM
 
-let time = 3500,
+let time = 5000,
     currentImageIndex = 0,
     images1 = document.querySelectorAll(".project1 img")
     images2 = document.querySelectorAll(".project2 img")
