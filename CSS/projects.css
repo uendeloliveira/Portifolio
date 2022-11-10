@@ -24,6 +24,8 @@
     height: 600px;
     margin: auto;
     overflow: hidden;
+    box-shadow: 0 0 5px 1px #4E4E4E;
+    border-radius: 20px;
 }
 
 .item img {
