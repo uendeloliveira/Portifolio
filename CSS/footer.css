@@ -15,7 +15,13 @@
 }
 .footer_item{
     width: 25%;
-    padding: 0 50px 20px 0;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.footer_item p{
+    max-width: 300px;
+    margin: auto;
 }
 .footer_item h2{
     color: white;
