@@ -81,8 +81,7 @@
     .img_projects {
         height: 500px;
     }
-
-    .box {
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    .item{
+        width:350px;
     }
 }
