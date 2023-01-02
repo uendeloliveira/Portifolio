@@ -60,25 +60,25 @@ function smoothScrollTo(endX, endY, duration) {
 
   // TRANSIÇÃO DE IMAGEM
 
-let time = 5000,
-    currentImageIndex = 0,
-    images1 = document.querySelectorAll(".project1 img")
-    images2 = document.querySelectorAll(".project2 img")
-    max = images1.length
+// let time = 5000,
+//     currentImageIndex = 0,
+//     images1 = document.querySelectorAll(".project1 img")
+//     images2 = document.querySelectorAll(".project2 img")
+//     max = images1.length
 
-function nextImage(){
-  images1[currentImageIndex].classList.remove('selected')
-  images2[currentImageIndex].classList.remove('selected')
-  currentImageIndex++
-  if(currentImageIndex >= max)
-    currentImageIndex = 0
-  images1[currentImageIndex].classList.add('selected')
-  images2[currentImageIndex].classList.add('selected')
-}
+// function nextImage(){
+//   images1[currentImageIndex].classList.remove('selected')
+//   images2[currentImageIndex].classList.remove('selected')
+//   currentImageIndex++
+//   if(currentImageIndex >= max)
+//     currentImageIndex = 0
+//   images1[currentImageIndex].classList.add('selected')
+//   images2[currentImageIndex].classList.add('selected')
+// }
    
-function start(){
-  setInterval(()=>{
-    nextImage()
-  }, time)
-}
-window.addEventListener('load', start)
+// function start(){
+//   setInterval(()=>{
+//     nextImage()
+//   }, time)
+// }
+// window.addEventListener('load', start)
